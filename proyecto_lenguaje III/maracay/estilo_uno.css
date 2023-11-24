@@ -1,0 +1,135 @@
+body{
+    background-image: url(fondo_secundario.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.cabezera{
+    -webkit-backdrop-filter: blur(30px);
+    backdrop-filter: blur(30px);
+    background-color:rgba(8, 7, 7, 0.2);
+    padding: 15px;
+    border-radius: 20px;
+}
+
+h1 a{
+    font-size: 40px;
+    font-family: Copperplate Gothic;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+#menu{
+    width: auto;
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#menu ul{
+    list-style-type: upper-roman;
+    margin: 0;
+    padding: 0;
+}
+
+#menu ul li{
+    display: inline-block;
+}
+
+#menu ul li a{
+    color: black;
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    margin-right: 50px;
+}
+
+#menu ul li a:hover{
+    background: rgb(167, 163, 163);
+    color: black;
+    border-radius: 25%;
+    width: 80%;
+}
+
+.imagen_uno{
+    width: 170px;
+    height: 120px;
+    margin-top: 22px;
+    margin-right: 20px;
+}
+
+#imagen{
+    border-left: 1px solid black;
+    margin-left: 15px;
+}
+
+.contenedor_uno{
+    display: flex;
+    margin-top: 20px;
+    border-radius: 50px;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15%;
+    -webkit-backdrop-filter: blur(30px);
+    backdrop-filter: blur(30px);
+    background-color:rgba(8, 7, 7, 0.2);
+    margin-bottom: 25px;
+}
+
+.contenedor_dos{
+    font-size: 25px;
+    font-family: Garamond;
+    color: rgb(0, 0, 0);
+}
+
+.foo{
+    -webkit-backdrop-filter: blur(30px);
+    backdrop-filter: blur(30px);
+    background-color:rgba(8, 7, 7, 0.2);
+    border-radius: 20px;
+    margin-top: 10%;
+    padding: 50px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+footer{
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+svg{
+    width: 20px;
+    height: 20px;
+}
+
+svg:hover{
+    text-shadow: 0 0px 0px rgba(255, 0, 0, 0.877);
+}
+
+.iconos{
+    position: absolute;
+    top: 0;
+    margin-top: 2%;
+    margin-left: 30px;
+    font-family: sans-serif;
+}
+
+.Contactanos{
+    position: absolute;
+    margin-left: 1000px;
+    top: 15%;
+}
+
+.Contactanos p{
+    font-family: sans-serif;
+}
+
+#ima{
+    border-radius: 10px;
+}

@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');              
+
+body{
+    background-image: url(fondo_secundario.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.icono-carrito{
+    margin-left: 1200px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.cabezera{
+    -webkit-backdrop-filter: blur(30px);
+    backdrop-filter: blur(30px);
+    background-color:rgba(8, 7, 7, 0.2);
+    padding: 15px;
+    border-radius: 20px;
+}
+
+
+h1 a{
+    font-size: 40px;
+    font-family: Copperplate Gothic;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+#menu{
+    width: auto;
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu ul li{
+    display: inline-block;
+}
+
+#menu ul li a{
+    color: black;
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    margin-right: 50px;
+}
+
+#menu ul li a:hover{
+    background: rgb(167, 163, 163);
+    color: black;
+    border-radius: 25%;
+    width: 80%;
+}
+
+.contener{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 25px;
+    margin-left: 50px;
+    border-radius: 50px;
+    -webkit-backdrop-filter: blur(30px);
+    backdrop-filter: blur(30px);
+    background-color:rgba(8, 7, 7, 0.2);
+    width: 95%;
+}
+
+.texto{
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    font-family: sans-serif;
+    margin-right: 15px;
+    font-size: 15px;
+}
+
+.agregar{
+    background: rgb(241, 240, 240);
+    padding: 8px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 10px;
+    font-size: 15px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.agregar:hover{
+    background: rgb(39, 37, 37);
+    color: white;
+}
+
+.imgen-texto{
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-family: Copperplate Gothic;
+}
+.imgen-texto .texto{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.galeria-uno{
+    margin-left: 25px;
+    display: flex;  
+}
+
+.galeria-dos{
+    margin-left: 25px;
+    display: flex;
+}
+
+.galeria-tres{
+    margin-left: 25px;
+    display: flex;
+}
+
+.imga{
+    width: 170px;
+    height: 120px;
+    margin-top: 22px;
+    margin-right: 20px;
+    object-fit: cover;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+.imga:hover{
+    box-shadow: 0 10px 30px rgba(236, 223, 223, 10);
+}
+.cont{
+    margin-top: 20px;
+    width: 85%;
+    font-size: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+    border-radius: 50px;
+    -webkit-backdrop-filter: blur(50px);
+    backdrop-filter: blur(50px);
+    background-color:rgba(8, 7, 7, 0.2);
+    position: absolute;
+    margin-left: 5%;
+    padding: 25px;
+}
+
+.formulario{
+    padding: 15px;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.controles{
+    width: 70%;
+    padding: 10px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    border: 1px solid rgb(3, 3, 3);
+    color: rgb(0, 0, 0);
+    background-color: aliceblue;
+}
+
+select{
+    width: 100%;
+}
+
+.referencia{
+    width: 100%;
+    padding: 5px;
+    font-size: 14px;
+    font-family: calibri;
+    border-radius: 10px;
+    background: transparent;
+}
+
+.boton-enviar{
+    font-size: 14px;
+    background: transparent;
+    border: 1px solid rgb(2, 2, 2);
+    border-radius: 5px;
+    margin-left: 20%;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.boton-enviar:hover{
+    background-color: white;
+    color: black;
+    padding: 5px;
+}
+
+.boton-borrar{
+    font-size: 14px;
+    background: transparent;
+    border: 1px solid rgb(2, 2, 2);
+    border-radius: 5px;
+    margin-left: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.boton-borrar:hover{
+    background-color: white;
+    color: black;
+    padding: 5px;
+}
+
+.contenedor-nombre-apellido-municipio-parroquia{
+    width: 50%;
+}
+
+.coontenedor-comunidad-calle-casa-pedido{
+    width: 50%;
+    float: right;
+    position: absolute;
+    top: 48px;
+    right: 0;
+}
+
+input[type="file"]{
+    padding: 10px;
+    width: 30%;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+}
+
+.icon-carrito{
+    position: absolute;
+    margin-left: 89%;
+    margin-top: 30px;
+    color: white;
+}
+
+.cont-dos{
+    font-family: 'Pacifico', cursive;
+    font-size: 15px;
+    color: wheat;
+    border: 1px solid wheat;
+    margin-top: 20px;
+    margin-left: 55%;
+    width: 40%;
+    height: 450px;
+    border-radius: 50px;
+    -webkit-backdrop-filter: blur(50px);
+    backdrop-filter: blur(50px);
+    background-color:rgba(8, 7, 7, 0.2);
+    overflow-y: auto;
+    position: fixed;
+    top: 80px;
+    right: 0;   
+    transform: translateX(100%);  
+    transition: .3s ease all;  
+}
+
+.cont-dos h1{
+    font-weight: bold;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, .4)   ;
+}
+
+.x{
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.x:hover {
+    background-color: rgba(8, 7, 7, 0.2);
+    transform: scale(1.05, 1.05);
+}
+
+.cont-dos.activo {
+    transform: translateX(0%);
+}
+
+.contenedor-compra{
+    display: flex;
+    font-family: Copperplate Gothic;
+}
+
+.descripcion{
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 5%;
+}
+
+.descripcion h3{
+    font-size: 20px;
+}
+
+.papelera{position: absolute;
+    width: 170;
+    height: 140;
+    margin-top: 56px;
+    margin-left: 470px;
+    cursor: pointer;
+}
+
+.imagen-carrito{
+    width: 170px;
+    height: 120px;
+    margin-left: 5px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.compra{
+    margin-left: 10px;
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 95%;
+}
+
+.cont-dos h1{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.foo{
+    -webkit-backdrop-filter: blur(30px);
+    backdrop-filter: blur(30px);
+    background-color:rgba(8, 7, 7, 0.2);
+    border-radius: 20px;
+    margin-top: 40%;
+    padding: 50px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+footer{
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+svg{
+    width: 20px;
+    height: 20px;
+}
+
+svg:hover{
+    text-shadow: 0 0px 0px rgba(255, 0, 0, 0.877);
+}
+
+.iconos{
+    position: absolute;
+    top: 0;
+    margin-top: 2%;
+    margin-left: 30px;
+    font-family: sans-serif;
+}
+
+.Contactanos{
+    position: absolute;
+    margin-left: 1000px;
+    top: 15%;
+}
+
+.Contactanos p{
+    font-family: sans-serif;
+}
